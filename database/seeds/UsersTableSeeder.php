@@ -25,7 +25,7 @@ class UsersTableSeeder extends Seeder
           'email' => $faker->unique()->safeEmail,
           'department' => $department,
           'role' => $role,
-          'password' => bcrypt('password'),
+          'password' => bcrypt('password'),   //password 
       ]);
     }
   }
