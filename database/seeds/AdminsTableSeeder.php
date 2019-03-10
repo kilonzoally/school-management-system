@@ -25,7 +25,7 @@ class AdminsTableSeeder extends Seeder
           'email' => $faker->unique()->safeEmail,
           'job_title' => $job_title,
 
-          'password' => bcrypt('password'),
+          'password' => bcrypt('password'),   //password
       ]);
     }
   }
